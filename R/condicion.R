@@ -1,0 +1,10 @@
+condicion<-
+  function(variable,condicion,custom=NULL){
+    if(is.null(custom)){
+      temp<-paste("which(!(poblacion[,\"",variable,"\"]",condicion,"))",sep="")
+      return(structure(temp,class="condicion"))
+    }else{
+      temp<-paste("which(",custom,")",sep="")
+      return(structure(temp,class="condicion"))
+    }
+  }

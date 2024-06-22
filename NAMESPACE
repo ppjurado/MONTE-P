@@ -1,0 +1,4 @@
+export("asignacion", "asociaciones", "computo", "condicion", "distribuciones", "efecto_indice",
+       "efectos", "estrato", "generador", "lista_distribuciones", "muestro_multinomial_ind",
+       "muestro_multinomial_ind_", "plot.variable", "print.estrato", "print.simul",
+       "print.variable", "rdistribucion", "suma_efecto", "variable")
